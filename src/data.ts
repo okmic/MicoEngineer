@@ -16,7 +16,7 @@ export const siteData = {
     { id: 'about', label: 'Обо мне' }
   ],
   hero: {
-    title: "Mico Engineer",
+    title: "Mico Инженер",
     subtitle: "Программный инженер • Исследователь • Инноватор"
   },
   about: {
