@@ -4,7 +4,7 @@ import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
   plugins: [react(),tailwindcss()],
-  base: '/MicoEngineer/',
+  base: '/PerfAuraCP/',
   build: {
     outDir: './build',
     emptyOutDir: true
