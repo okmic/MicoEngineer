@@ -1,7 +1,8 @@
 import { 
   GraduationCap, Target, Lightbulb, Users, TrendingUp, Shield,
   Code, Brain, Rocket, CheckCircle, Heart, Crown,
-  Laptop, Server
+  Laptop, Server, Award,
+  Sparkles,
 } from "lucide-react"
 
 export function getExperienceYears() {
@@ -12,6 +13,7 @@ export function getExperienceYears() {
 export const siteData = {
   navItems: [
     { id: 'education', label: 'Образование' },
+    { id: 'achievements', label: 'Достижения' },
     { id: 'values', label: 'Ценности' },
     { id: 'about', label: 'Обо мне' }
   ],
@@ -31,38 +33,40 @@ export const siteData = {
       {
         id: "college",
         title: "Среднее профессиональное образование",
-        description: "Информационные системы",
-        institution: "Техник информационных систем",
+        description: "Информационные системы и программирование",
+        institution: "Техникум информационных технологий",
         period: "2011 — 2015",
         gradient: "from-[#7C3AED] to-[#A78BFA]",
         icon: GraduationCap,
         image: "/MicoEngineer/edk.jpg",
         details: [
-          "Диплом техника информационных систем",
-          "Изучение основ программирования и БД",
+          "Сразу после защиты диплома устроился на первую работу",
+          "Автоматизировал рутинные задачи, сэкономив сотрудникам 1000+ часов",
+          "Изучение алгоритмов и структур данных",
           "Сетевая и системная администрация"
         ]
       },
       {
         id: "bachelor",
         title: "Бакалавриат",
-        description: "Прикладная информатика",
-        institution: "Диплом в области информационных систем",
+        description: "Прикладная информатика в экономике",
+        institution: "Северо-Кавказская государственная академия",
         period: "2016 — 2021",
         gradient: "from-[#3B82F6] to-[#8B5CF6]",
         icon: Brain,
         image: "/MicoEngineer/edb.jpg",
         details: [
-          "Диплом бакалавра прикладной информатики",
           "Углубленное изучение алгоритмов и структур данных",
-          "Проектирование информационных систем"
+          "Проектирование информационных систем",
+          "Разработка корпоративных приложений",
+          "Дипломная работа: 'Автоматизация бизнес-процессов предприятия'"
         ]
       },
       {
         id: "skga",
-        title: "Автоматизация внутренних процессов",
-        description: "Северо-Кавказская государственная академия",
-        institution: "СКГА",
+        title: "Автоматизация процессов",
+        description: "Разработка и внедрение внутренних систем",
+        institution: "Северо-Кавказская государственная академия",
         period: "2021 — 2022",
         gradient: "from-[#34D399] to-[#059669]",
         icon: Server,
@@ -70,24 +74,60 @@ export const siteData = {
         details: [
           "Автоматизация процессов с Python и Node.js",
           "Обучение сотрудников работе с БД",
-          "Работа с локальными защищенными сетями"
+          "Внедрение защищенных сетей",
+          "Оптимизация документооборота"
         ]
       },
       {
         id: "freelance1",
         title: "Fullstack Web Разработчик",
-        description: "Аутсорс-разработка и фриланс",
+        description: "Коммерческая разработка и аутсорс",
         institution: "Самостоятельная деятельность",
-        period: "2022 — 2023",
+        period: "2022 — Настоящее время",
         gradient: "from-[#F59E0B] to-[#F97316]",
         icon: Laptop,
         image: null,
         details: [
-          "Разработка веб-приложений под ключ",
-          "Работа с Node.js, React, PostgreSQL",
-          "Интеграция платежных систем"
+          "20+ завершенных проектов",
+          "Разработка на Node.js, React, PostgreSQL",
+          "Интеграция платежных систем (Stripe, Сбер)",
+          "Микросервисная архитектура",
+          "Деплой и DevOps практики"
         ]
+      }
+    ]
+  },
+  achievements: {
+    title: "ДОСТИЖЕНИЯ",
+    subtitle1: "Ключевые вехи профессионального пути",
+    items: [
+      {
+        id: "postfarm",
+        title: "Создал свой первый SaaS продукт — PostFarm",
+        description: "От идеи до релиза: спроектировал архитектуру, разработал backend и frontend, настроил деплой. Гибридная архитектура — работает как монолит и как микросервисная система одновременно. Три уровня доступа: Root, Admin, User. Полный цикл разработки продукта.",
+        link: "https://okmic.github.io/GetPostFarm",
+        img: "/MicoEngineer/postfarm.jpg",
+        icon: Rocket,
+        gradient: "from-[#7C3AED] to-[#A78BFA]"
       },
+      {
+        id: "expert",
+        title: "Участвовал в Демо-экзамене МТК",
+        description: "Прошел через демонстрационный экзамен в МТК — серьезное испытание, где нужно не просто знать, а уметь применять знания в реальных условиях. Это был честный диалог с экспертами, которые понимают твой язык. Оставило чувство профессионального роста и уверенности.",
+        link: "https://e.dp.firpo.ru/?search=1&cert_number=&expert_surname=%D0%9E%D1%85%D1%82%D0%BE%D0%B2&expert_name=&expert_patronymic=&region=&skill=",
+        img: "/MicoEngineer/mico-mtk-demo.png",
+        icon: Award,
+        gradient: "from-[#3B82F6] to-[#60A5FA]"
+      },
+      {
+        id: "designer",
+        title: "Инженер, который начал делать дизайны",
+        description: "Всегда был инженером — и в этом моя сила. Но решил дать шанс скрытой творческой натуре: из семьи инженеров, но с художественным вкусом. Начал делать дизайны, и это стало мощным дополнением к моей работе. Теперь 9 из 10 клиентов утверждают макеты с минимальными правками — инженерный подход помогает создавать логичные, удобные интерфейсы.",
+        link: "https://miconext.github.io/Mico",
+        img: "/MicoEngineer/mico-designer.png",
+        icon: Sparkles,
+        gradient: "from-[#F59E0B] to-[#F97316]"
+      }
     ]
   },
   values: {
