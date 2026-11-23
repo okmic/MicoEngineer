@@ -2,7 +2,7 @@ import {
   GraduationCap, Target, Lightbulb, Users, TrendingUp, Shield,
   Code, Brain, Rocket, CheckCircle, Heart, Crown,
   Laptop, Server, Award,
-  Sparkles,
+  Sparkles, FileDownIcon, School
 } from "lucide-react"
 
 export function getExperienceYears() {
@@ -106,18 +106,18 @@ export const siteData = {
         title: "Туториал Mico.Harness.Code Практика",
         description: "Обработка лидов на Node.js и Go, промпт-помощник и чек-лист, который реально работает. Здесь код, который можно скачать и запустить. Собираем harness на 150 строк с правами, подтверждениями и изоляцией внешнего ввода. Без магии. Всё, что происходит внутри, видно на экране.",
         link: "https://github.com/okmic/Mico.Harness.Code",
-        img: "/MicoEngineer/MicoAI.webp",
-        icon: Rocket,
-        gradient: "from-[#7C3AED] to-[#A78BFA]"
+        img: "/MicoEngineer/MicoHarness.jpg",
+        icon: School,
+        gradient: "from-[#6D28D9] to-[#A78BFA]"
       },
       {
         id: "micoharness-theory",
         title: "Туториал Mico.Harness.Code Теория",
         description: "Вайб-кодинг дал суперсилу, и теперь вы отдаёте агенту почту. Claude не агент. Агент это harness. За 21 минуту чтения разберём, где вы теряете данные, деньги и качество ответов, и как собрать свой harness на 150 строк. Без воды. Со схемой, примером кода и чек-листом, который можно применить сразу.",
         link: "https://github.com/okmic/Mico.Harness.Code",
-        img: "/MicoEngineer/MicoAI.webp",
-        icon: Rocket,
-        gradient: "from-[#7C3AED] to-[#A78BFA]"
+        img: "/MicoEngineer/MicoHarness.jpg",
+        icon: School,
+        gradient: "from-[#4F46E5] to-[#818CF8]"
       },
       {
         id: "micoprompt",
@@ -125,8 +125,8 @@ export const siteData = {
         description: "Хотел убрать рутину для ИИ-агентов, которые проверяют логи приложений. Получился один бинарь на Go, который просто работает. В личной разработке, где ты сам в роли harness, он тоже выручает. Больше 1000 скачиваний и больше 100 благодарностей от людей, которые им пользуются. Приятнее всего было читать не цифры, а письма.",
         link: "https://github.com/okmic/MicoPrompt",
         img: "/MicoEngineer/MicoPrompt.webp",
-        icon: Rocket,
-        gradient: "from-[#7C3AED] to-[#A78BFA]"
+        icon: FileDownIcon,
+        gradient: "from-[#0EA5E9] to-[#5DC9E2]"
       },
       {
         id: "postfarm",
@@ -135,7 +135,7 @@ export const siteData = {
         link: "https://okmic.github.io/GetPostFarm",
         img: "/MicoEngineer/postfarm.jpg",
         icon: Rocket,
-        gradient: "from-[#7C3AED] to-[#A78BFA]"
+        gradient: "from-[#059669] to-[#34D399]"
       },
       {
         id: "expert",
@@ -144,7 +144,7 @@ export const siteData = {
         link: "https://e.dp.firpo.ru/?search=1&cert_number=&expert_surname=%D0%9E%D1%85%D1%82%D0%BE%D0%B2&expert_name=&expert_patronymic=&region=&skill=",
         img: "/MicoEngineer/mico-mtk-demo.png",
         icon: Award,
-        gradient: "from-[#3B82F6] to-[#60A5FA]"
+        gradient: "from-[#D97706] to-[#F59E0B]"
       },
       {
         id: "designer",
