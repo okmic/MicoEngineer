@@ -105,7 +105,7 @@ export const siteData = {
         id: "micoharness-code",
         title: "Туториал Mico.Harness.Code Практика",
         description: "Обработка лидов на Node.js и Go, промпт-помощник и чек-лист, который реально работает. Здесь код, который можно скачать и запустить. Собираем harness на 150 строк с правами, подтверждениями и изоляцией внешнего ввода. Без магии. Всё, что происходит внутри, видно на экране.",
-        link: "https://github.com/okmic/Mico.Harness.Code",
+        link: "https://okmic.github.io/Mico.Harness.Code/",
         img: "/MicoEngineer/MicoHarness.jpg",
         icon: School,
         gradient: "from-[#6D28D9] to-[#A78BFA]"
@@ -114,7 +114,7 @@ export const siteData = {
         id: "micoharness-theory",
         title: "Туториал Mico.Harness.Code Теория",
         description: "Вайб-кодинг дал суперсилу, и теперь вы отдаёте агенту почту. Claude не агент. Агент это harness. За 21 минуту чтения разберём, где вы теряете данные, деньги и качество ответов, и как собрать свой harness на 150 строк. Без воды. Со схемой, примером кода и чек-листом, который можно применить сразу.",
-        link: "https://github.com/okmic/Mico.Harness.Code",
+        link: "https://okmic.github.io/Mico.Harness/",
         img: "/MicoEngineer/MicoHarness.jpg",
         icon: School,
         gradient: "from-[#4F46E5] to-[#818CF8]"
